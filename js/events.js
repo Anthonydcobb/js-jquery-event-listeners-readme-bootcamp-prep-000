@@ -12,7 +12,7 @@ function frameIt() {
 
 function pressIt() {
   $('input #typing').on('keypress', function(e) {
-      console.log(e.target)
+      alert('you pressed a key')
   })
 }
 
