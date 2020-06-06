@@ -18,6 +18,10 @@ function pressIt() {
   })
 }
 
+function submitIt() {
+  $('form input:last-child')
+}
+
 $(document).ready(function(){
 getIt()
 frameIt()
