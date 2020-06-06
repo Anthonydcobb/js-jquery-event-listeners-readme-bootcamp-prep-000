@@ -13,7 +13,7 @@ function frameIt() {
 function pressIt() {
   $('input').on('keypress', function(e) {
     console.log(e.which)
-    if (e.which === 103) {
+    if (e.which === 71) {
       alert('You pressed G')
     }
   })
