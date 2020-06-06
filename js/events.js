@@ -14,6 +14,7 @@ function pressIt() {
   $('input').on('keypress', function(e) {
     if (e.which === 103) {
       alert('You pressed G')
+      console.log(e.which)
     }
   })
 }
