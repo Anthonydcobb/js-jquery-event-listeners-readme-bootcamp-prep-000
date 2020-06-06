@@ -12,7 +12,7 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(e) {
-      console.log(e.values)
+      console.log(e.target.nodeName)
   })
 }
 
